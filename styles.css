@@ -10,7 +10,6 @@ body {
 header {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
     text-align: center;
 }
 
@@ -29,8 +28,7 @@ h1 {
 section {
     margin-bottom: 20px;
 }
-
-.experiencia-item, .projeto-item {
+.projeto-item {
     margin-bottom: 15px;
 }
 
@@ -44,12 +42,13 @@ ul li {
 }
 
 a {
-    color: #4CAF50;
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #333;
 }
 
 footer {
@@ -65,4 +64,17 @@ footer {
     main {
         padding: 10px;
     }
+}
+.foto-perfil{
+    border-radius: 50%;
+    width:300px;
+}
+#topo{
+    color: rgb(179, 179, 179);
+}
+#contato{
+    color: #4CAF50;
+}
+.topic{
+    color: black;
 }
